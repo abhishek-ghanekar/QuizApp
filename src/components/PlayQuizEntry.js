@@ -90,7 +90,7 @@ const PlayQuizEntry = () => {
   
     {/* <button >GENERATE SCORE</button>  */}
     <div>
-    <a href="http://localhost:8000/playquiz" class="btn btn-danger my-2" tabIndex="-1" role="button">RESET</a>
+    <a href="http://localhost:3000/playquiz" class="btn btn-danger my-2" tabIndex="-1" role="button">RESET</a>
     </div>
     </div>
   )
