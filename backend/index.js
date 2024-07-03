@@ -2,7 +2,7 @@ const connectToMongo = require('./db');
 const express = require('express')
 var cors = require('cors')
 const app = express()
-const port = 1000
+const port = "https://quiz-app-backend-weld.vercel.app/"
 
 app.use(cors())
 app.use(express.json())//if we want to use req.body this middleware is required
